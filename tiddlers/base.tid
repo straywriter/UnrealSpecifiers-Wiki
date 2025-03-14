@@ -1,0 +1,104 @@
+title: $:/themes/linonetwo/itonnote/mei
+tags: $:/tags/Stylesheet
+type: text/vnd.tiddlywiki
+
+/*
+** Start with the vanilla theme and normalize CSS reset, and then belay some of its effects
+*/
+
+
+/**
+  代码样式
+*/
+
+
+
+.markdown img {
+  margin: auto;
+  display: block;
+}
+
+
+/* styles.css */
+
+/* 通用的标题样式 */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+    font-family: 'Arial', sans-serif; /* 字体 */
+}
+
+/* h1 标题样式 */
+.markdown h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+
+/* h2 标题样式 */
+.markdown h2 {
+	font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/* h3 标题样式 */
+.markdown h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+
+/* h4 标题样式 */
+.markdown h4 {
+    font-size: 1.25em;
+
+}
+
+/* h5 标题样式 */
+.markdown h5 {
+    font-size: 1em;
+
+}
+
+
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top : 0.8em;
+    margin-down : 0.8em;
+    padding: 0;
+    width: 100%;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
