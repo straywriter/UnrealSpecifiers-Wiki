@@ -35,7 +35,7 @@
 
 以下是meta表格链接：
 
-- [Meta](Meta/Meta.md)
+- [Meta](#Meta)
 
 # Flags
 
